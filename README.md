@@ -1,16 +1,44 @@
-# slicing_laundry
+# Slicing Aplikasi Laundry
 
-A new Flutter project.
+## Cara menjalankan aplikasi
 
-## Getting Started
+Pastikan sudah menginstall Git dan Flutter pada environment kalian.
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter
+  ```sh
+  https://docs.flutter.dev/get-started/install
+  ```
+- Git
+  ```sh
+  https://git-scm.com/downloads
+  ```
+  
+### Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repo
+   ```sh
+   git clone https://github.com/fadillahnurfaq/slicing_laundry
+   ```
+2. Install the dependencies
+   ```sh
+   flutter pub get
+   ```
+3. Run
+   ```sh
+   Run Without Debugging On Vs Code
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Detail Aplikasi
+
+![ss_1](ss/ss1.png)
+
+
+
+
+## Dependencies
+Berikut ini merupakan dependencies yang digunakan dalam slicing ini:
+
+### Dependency Injection
+- get_it: ^7.6.0
