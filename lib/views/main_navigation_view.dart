@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:slicing_laundry/controllers/main_navigation_controller.dart';
+import 'package:slicing_laundry/helper/value_builder.dart';
 import 'package:slicing_laundry/injection.dart';
 
 import 'home_view.dart';
@@ -36,9 +37,9 @@ class MainNavigationView extends StatelessWidget {
             splashColor: Colors.transparent,
             highlightColor: Colors.transparent,
           ),
-          child: ValueListenableBuilder<int>(
-              valueListenable: controller.selectedIndex,
-              builder: (_, v, __) {
+          child: ValueBuilder<int>(
+              listen: controller.selectedIndex,
+              builder: (v) {
                 return BottomNavigationBar(
                   currentIndex: v,
                   backgroundColor: Colors.white,
